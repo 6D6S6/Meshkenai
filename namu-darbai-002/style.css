@@ -1,4 +1,4 @@
-h1, body, p, ol, a:link, a:visited, a:hover, td{
+h1, body, p, ol, a:link, a:visited, a:hover, td {
     font-family: Verdana, sans-serif, Nunito;
 }
 h1 {
@@ -22,6 +22,10 @@ a:visited{
 a:hover{
     color: red; background-color: transparent; text-decoration: underline
 }
+table {
+    border: 2px solid rgba(255, 166, 0, 0.315); 
+}
 td {
-    font-size:20px; color:white; background-color: rgba(128, 128, 128, 0.452);
+    border: 2px solid rgba(255, 166, 0, 0.315);
+    color:white; background-color: rgba(128, 128, 128, 0.452);
 }
