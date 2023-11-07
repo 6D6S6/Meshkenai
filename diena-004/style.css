@@ -14,6 +14,11 @@ div {
     margin: 10px;
     border-radius: 50%;
 }
+div:hover {
+    color: #ffffff75;
+    background-color: #ffffff75;
+    border-color: #ffffff75;
+}
 .back {
     color: black;
 }
