@@ -1,0 +1,56 @@
+h1, body, p, ol, div, a:link, a:visited, a:hover {
+    font-family: Verdana, sans-serif, Nunito;
+    color: white;
+}
+h1 {
+    margin: 5% 0 30px 25%;
+    font-size:50px; 
+}
+body {
+    background-image: url('http://127.0.0.1:5500/namu-darbai-003/meshkenai-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+}
+p, ol {
+    font-size:30px; 
+    text-shadow: 2px 2px 5px black;
+}
+ol {
+    margin: 30px 0 0 5%;
+}
+.a {
+    margin: 0 5% 0 10%;
+}
+.b {
+    margin: 0 5% 0 5%;
+}
+div {
+    display: inline-block;
+    width: 30vw;
+    height: auto;
+    text-align: justify;
+    font-size: 20px;
+    border: 2px solid rgba(255, 166, 0, 0.315);
+    background-color: rgba(128, 128, 128, 0.452);
+    margin: 2px;
+    padding: 2px;
+}
+
+
+a:link{
+    color:white; background-color: transparent; text-decoration: none;
+}
+a:visited{
+    color:white; background-color: transparent; text-decoration: none;
+}
+a:hover{
+    color: red; background-color: transparent; text-decoration: underline
+}
+.img1 {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
