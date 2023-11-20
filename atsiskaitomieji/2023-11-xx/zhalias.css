@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(104, 187, 159);
+}
+header > div {
+  display: inline-flex;
+}
+.Mainmeniu {
+  font-size: 30px;
+  margin-left: 5vw;
+}
+.Mainmeniucentras1 {
+  font-size: 30px;
+  margin: 0 0 0 25vw;
+}
+.Mainmeniucentras2 {
+  font-size: 30px;
+}
+.Mainmeniugalas {
+  font-size: 30px;
+  margin: 0 0 0 85vw;
+}
+.leibloklase1 {
+  border: solid 1px black;
+  border-radius: 3px;
+}
+.leibloklase1:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+.Antrinismeniu {
+  height: 100px;
+  width: 200px;
+  top: 50px;
+  left: 40vw;
+  line-height: 30px;
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 3px;
+  background-color: rgb(160, 207, 209);
+  /* transform: translateY(-300%); */
+  transition: 1s ease-in-out;
+}
+li {
+  font-size: 30px;
+  list-style: none;
+  margin: 0;
+}
+li:hover {
+  cursor: pointer;
+}
+.Tamsus:hover {
+  background-color: rgb(168, 168, 168);
+}
+.Biskvitas:hover {
+  background-color: bisque;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
